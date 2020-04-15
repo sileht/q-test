@@ -1,0 +1,11 @@
+application:
+  name: q-test
+  project: q-test
+  cloud_region: aws/eu-west-3
+  publicly_accessible: true
+routers:
+- name: main
+  routes:
+  - application_name: q-test
+    paths:
+    - /*
