@@ -1,3 +1,2 @@
-FROM python:alpine
-ENTRYPOINT python -m http.server
-EXPOSE 8000
+FROM kennethreitz/httpbin
+EXPOSE 80
